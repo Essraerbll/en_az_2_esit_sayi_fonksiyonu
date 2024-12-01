@@ -13,3 +13,5 @@ Eğer herhangi bir iki sayı eşitse, "En az iki sayı birbirine eşittir." mesa
 ### Çözüm Yolu 3:
 Bu yöntemde, verilen sayılar bir listeye dönüştürülür ve bir set'e dönüştürülerek tekrarlar kontrol edilir.
 Eğer liste uzunluğu set'in uzunluğuna eşit değilse, en az iki sayı eşittir.
+
+NOT: KODLARIN ÇALIŞMASINI İSTİYORSANIZ """(ÜÇ TIRNAK) BULUNAN KISIMLARI SİLMENİZ YETERLİ OLACAKTIR.
