@@ -65,3 +65,15 @@ def list(sayi1, sayi2, sayi3, sayi4, sayi5):
     print("Tum sayilar birbirinden farklidir.")
 list(1, 2, 3, 4, 5)
 list(1, 2, 3, 4, 3)
+# Altıncı çözüm yolu:
+def list(sayi1, sayi2, sayi3, sayi4, sayi5):
+    sayilar = [sayi1, sayi2, sayi3, sayi4, sayi5]
+    esitsayilar = set()
+
+    for i in range(len(sayilar)):
+        if sayilar[i] in esitsayilar:
+            print("En az iki sayi birbirine esittir.")
+            return
+        esitsayilar.add(sayilar[i])
+
+    print("Tum sayilar birbirinden farklidir.")
