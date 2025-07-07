@@ -63,3 +63,5 @@ def list(sayi1, sayi2, sayi3, sayi4, sayi5):
         esitsayilar.add(sayilar[i])
 
     print("Tum sayilar birbirinden farklidir.")
+list(1, 2, 3, 4, 5)
+list(1, 2, 3, 4, 3)
