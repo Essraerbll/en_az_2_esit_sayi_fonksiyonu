@@ -36,5 +36,4 @@ list(1,2,3,4,3) """
 
 list(1,2,3,4,3) """
 
-
-    
+#dorduncu cozum yolu :
